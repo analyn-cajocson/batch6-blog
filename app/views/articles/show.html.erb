@@ -1,0 +1,9 @@
+<h1>Name:</h1>
+<%= @article.name %>
+
+<h2>Body:</h2>
+<%= @article.body %>
+
+<div>
+<%= link_to 'See all comments', article_comments_path(@article) %>
+</div>
